@@ -1,3 +1,3 @@
 def my_select(collection)
- yield 
+ yield collection.even
 end
