@@ -4,5 +4,7 @@ def my_select(collection)
  while counter < collection.length
  if yield collection[counter] == true
  emptyArray.push(collection[counter])
- 
+ counter += 1
+ end
+ emptyArray
 end
