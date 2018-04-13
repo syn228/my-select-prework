@@ -3,5 +3,6 @@ def my_select(collection)
  counter = 0
  while counter < collection.length
  if yield collection[counter] == true
+ emptyArray
  
 end
