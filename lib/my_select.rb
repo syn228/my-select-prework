@@ -1,3 +1,7 @@
 def my_select(collection)
- yield collection.even?
+ emptyArray = []
+ counter = 0
+ while counter < collection.length
+ yield collection[counter]
+ 
 end
